@@ -1,0 +1,513 @@
+
+
+
+
+.info{
+background-color:#06070E;
+
+}
+
+
+
+
+
+body{
+font-family: 'Ubuntu';
+background:url(../assets/b2.jpeg);
+background-position: center;
+background-size: large;
+background-attachment:fixed no-repeat;
+
+
+
+}
+.primary-color{
+	color:#FFFFFA;
+}
+.info h2{
+	word-spacing: 0.1rem;
+	font-family: 'Montserrat';
+	transition: color 1s ease-in-out ;
+}
+.info h2:hover{
+color:#FFA400;
+}
+.info a{
+	transition: color 1s ease-in-out ;
+}
+.info a:hover{
+	color:#FFA400;
+}
+
+
+.strong{
+font-size: 140px;
+	color:#FFA400;
+}
+.small{
+	font-size: 100px;
+color:#E0FBFC;
+
+}
+
+
+
+#header{
+
+	min-height: calc(100vh - 94px);
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/h2.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat:no-repeat; 
+position: relative;
+
+
+}
+.height-90{
+	min-height: calc(100vh - 94px);
+}
+
+
+.banner h1{
+	border-bottom:  1px solid black;
+	border-top:  1px solid black;
+	animation: fromleft;
+	animation-duration: 4s; 
+    animation-delay: 1s;  
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fromleft{
+0%{
+	transform: translateX(-100px);
+	opacity: 0;
+}
+50%{
+
+	transform: translateX(30px);
+}
+100%{
+	transform: translateX(0);
+	opacity: 1;
+}
+
+}
+
+
+
+
+
+
+.btn-main{
+
+	color:#FFA400;
+	font-size: 1.8rem;
+	border: 1.5px solid black;
+	border-radius: 20px;
+	transition:all .5s ease-in-out;
+	animation: fromRight;
+	animation-duration: 4s; 
+    animation-delay: 1s;  
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+.btn-main:hover{
+background-color:#06070E ;
+color:#FFA400;
+
+}
+
+
+
+@keyframes fromRight{
+0%{
+	transform: translateX(100px);
+	opacity: 0;
+}
+50%{
+
+	transform: translateX(-30px);
+}
+100%{
+	transform: translateX(0);
+	opacity: 1;
+}
+
+}
+
+
+.header-link{
+	display: inline-block;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	color:black;
+	background-color: #FFA400; 
+	border-radius: 50%;
+	transition: all 1.5s ease;
+	animation: frombottom;
+	animation-duration: 3s;
+     animation-iteration-count: infinite; 
+}
+.header-link:hover{
+	
+	color:#FFA400;
+	background-color:black ; 
+	
+
+}
+@keyframes frombottom{
+
+0%{
+
+	transform: translateY(-10px);
+}
+50%{
+transform: translateY(10px);
+
+}
+100%{
+	transform: translateY(-10px);
+}
+
+}
+
+
+.navbar{
+	
+background-color: #ffcc00 !important;
+
+padding: 8px 8px;
+transition: all 1s ease;
+}
+
+
+
+.navbar-background{
+padding: 5px 20px;
+
+
+
+}
+.scrollTop{
+position: fixed;
+bottom: 70px;
+right:10px;
+}
+
+
+.stro1{
+
+	color:#242424;
+	font-size: 50px;
+}
+.smal1{
+	font-size: 45px;
+color:#E0FBFC;
+
+}
+
+
+
+.nav-link{
+padding-left: 80%;
+font-size: 25px;
+text-decoration: none;
+color: #000000 !important;
+font-family: 'Roboto Condensed';
+
+}
+.nav-link:hover{
+
+color:red !important;
+
+}
+
+
+#side-button{
+	padding:10px 30px;
+		color: #000000 !important;
+		font-size: 20px;
+		border:2px solid #000000 !important;
+		border-radius:  50px 50px 50px 50px;
+		size:20px;
+}
+#side-button:hover{
+	color:white !important;
+	background-color: #000000;
+
+}
+
+.toggler-btn{
+	border:2px solid black;
+padding:5px;
+transition: all 1s ease;
+}
+
+.bar{
+	width:30px;
+	height:3px;
+	margin: 5px;
+	background: #d3325f;
+	transition: all 1s ease;
+}
+.change .bar1{
+
+	transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .bar2{
+
+	opacity: 0;
+}
+.change .bar3{
+
+	transform: rotate(45deg) translate(-5px,-8px);
+}
+
+
+
+
+.item-container{
+
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(rgb(0,0,0),rgb(0,0,0));
+	transition: all 1s ease;
+
+
+
+}
+.item-img{
+
+	transition: all 1s ease;
+
+}
+
+
+.item-container:hover .item-img {
+transform: scale(1.2);
+opacity: 0.4;
+
+
+}
+
+
+.item-link{
+
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color:transparent;
+	
+	
+	font-size: 2rem;
+	border: 1.5px solid transparent;
+	border-radius: 20px;
+	transition:all 1s ease;
+
+}	
+.item-container:hover .item-link{
+color:#FFA400;
+border: 1.5px solid black;
+
+}
+
+
+/*menu*/
+
+#menu{
+background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.75)),url('../assets/g1.jpg');
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat:no-repeat; 
+
+font-size: 30px;
+}
+.special{
+
+border:2px solid grey;
+	position: relative;
+	font-size: 30px;
+
+}
+
+.special-text{
+position: absolute;
+top:12.5%;
+right:6%;
+color:#04724D;
+padding: 0 0.4rem;
+font-size: 30px;
+
+
+}
+.s1{
+font-size: 50px;
+	color:#003B36;
+	font-family: 'ubuntu';
+}
+.display-3{
+color:white;
+
+
+}
+ .aboutme{
+	color:whitesmoke;
+}
+
+.btn-about{
+max-width:200px;
+	color:#FFA400;
+	padding-top: 9px;
+	padding-left:7px; 
+	font-size: 1.7rem;
+	border: 1.5px solid black;
+	border-radius: 10px;
+	transition:all .5s ease-in-out;
+	animation: fromRight;
+	animation-duration: 4s; 
+    animation-delay: 1s;  
+    opacity: 0;
+    animation-fill-mode: forwards;
+    margin-bottom: 20%;
+    padding-bottom: 7px;
+
+}
+.btn-about:hover{
+
+background-color:#06070E ;
+color:#FFA400;
+
+}
+
+.review-item{
+	border: 2px solid black;
+background: rgba(0,0,0,0.7);
+border-radius: 100px 100px;
+margin-left: 150px;
+margin-right:200px;
+
+	
+}
+
+
+.review-image{
+
+height: 175px;
+	width: 200px;
+}
+
+.team-icons a{
+
+color:#004E89;
+transition: all 1s ease;
+
+}
+
+
+.team-icons a:hover{
+	color:#FFA400;
+	transform: translateY(-5px);
+}
+
+
+.height-60{
+min-height: 41.5vh;
+
+}
+
+#contact .card{
+
+
+background: rgba(0,0,0,0.5);
+transition: all 1s ease;
+
+}
+#contact .card:hover{
+
+	background: rgba(0,0,0,0.8);
+}
+#contact .card-header{
+
+	color:#ffcc00;
+}
+
+#contact .input-group-text{
+background: #BFC0C0;
+color:black;
+border-color:#BFC0C0;
+
+
+}
+
+#contact .card input{
+color:#606060;
+
+}
+
+#contact .card input::placeholder{
+color:#606060;
+
+}
+.contact-btn{
+color:white;
+border-color: black;
+background: transparent;
+transition: all 1s ease-in-out;
+
+}
+
+.contact-btn:hover{
+background: black;
+color:#ffcc00;
+
+}
+
+#back-to-top{
+
+
+	border-radius: 10px;
+	color:black;
+	background-color: #FFA400; 
+	border-radius: 50%;
+	transition: all 1.5s ease;
+	animation: totop;
+	animation-duration: 3s;
+     animation-iteration-count: infinite; 
+     display: inline-block;
+
+}
+
+@keyframes totop{
+
+0%{
+
+	transform: translateY(10px);
+}
+50%{
+transform: translateY(-10px);
+
+}
+100%{
+	transform: translateY(10px);
+}
+
+}
+
+
+
+
+@media screen and (max-width: 320px){
+
+
+
+.btn-about{
+
+	font-size: 1.3rem;
+}
+
+}
