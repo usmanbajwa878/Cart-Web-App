@@ -13,7 +13,7 @@ background-color:#06070E;
 
 body{
 font-family: 'Ubuntu';
-background:url(../assets/b2.jpeg);
+background:url(./assets/b2.jpeg);
 background-position: center;
 background-size: large;
 background-attachment:fixed no-repeat;
@@ -55,7 +55,7 @@ color:#E0FBFC;
 #header{
 
 	min-height: calc(100vh - 94px);
-background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/h2.jpg);
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./assets/h2.jpg);
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
@@ -319,7 +319,7 @@ border: 1.5px solid black;
 /*menu*/
 
 #menu{
-background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.75)),url('../assets/g1.jpg');
+background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.75)),url('./assets/g1.jpg');
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
