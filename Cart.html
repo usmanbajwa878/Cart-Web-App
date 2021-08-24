@@ -21,9 +21,9 @@
     />
 
     <link rel="stylesheet" type="text/css" href="magnific-popup.css" />
-    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <script type="text/javascript" src="cart.js"></script>
   </head>
-  <body>
+  <body class="cart-body">
     <div class="container-fluid info p-3" id="top-icons">
       <div class="row">
         <div
@@ -36,103 +36,25 @@
           "
         >
           <h2 class="primary-color p-2">CART</h2>
-          
-      
         </div>
       </div>
     </div>
-
-    <section class="py-5" id="special-items">
-      <div class="container my-5">
-        <div class="row parent-container">
-   
-            <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
-                <div class="item-container">
-                  <img
-                    src="./assets/img2.jpg"
-                    class="img-fluid img-thumbnail"
-                  />
-                  <div class=" d-flex flex-row justify-content-between mr-2 ml-2">
-                        <h4 class="text-warning mt-2" >50 RS</h4>
-                        <button class="btn btn-warning btn-sm align-self-center" type="button">Add to Cart</button>
-                    </div>
-                </div>
-              </div>
-
-          
-          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
-            <div class="item-container">
-              <img
-                src="./assets/img2.jpg"
-                class="img-fluid img-thumbnail"
-              />
-              <div class=" d-flex flex-row justify-content-between mr-2 ml-2">
-                    <h4 class="text-warning mt-2" >40 RS</h4>
-                    <button class="btn btn-warning btn-sm align-self-center" type="button">Add to Cart</button>
-                </div>
-            </div>
-          </div>
-
-  
-          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
-            <div class="item-container">
-              <img
-                src="./assets/img2.jpg"
-                class="img-fluid img-thumbnail"
-              />
-              <div class=" d-flex flex-row justify-content-between mr-2 ml-2">
-                    <h4 class="text-warning mt-2" >70 RS</h4>
-                    <button class="btn btn-warning btn-sm align-self-center" type="button">Add to Cart</button>
-                </div>
-            </div>
-          </div>
-
-       
-          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
-            <div class="item-container">
-              <img
-                src="./assets/img2.jpg"
-                class="img-fluid img-thumbnail"
-              />
-              <div class=" d-flex flex-row justify-content-between mr-2 ml-2">
-                    <h4 class="text-warning mt-2" >90 RS</h4>
-                    <button class="btn btn-warning btn-sm align-self-center" type="button">Add to Cart</button>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
-            <div class="item-container">
-              <img
-                src="./assets/img2.jpg"
-                class="img-fluid img-thumbnail"
-              />
-              <div class=" d-flex flex-row justify-content-between mr-2 ml-2">
-                    <h4 class="text-warning mt-2" >100 RS</h4>
-                    <button class="btn btn-warning btn-sm align-self-center" type="button">Add to Cart</button>
-                </div>
-            </div>
-          </div>
-
-     
-          <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
-            <div class="item-container">
-              <img
-                src="./assets/img2.jpg"
-                class="img-fluid img-thumbnail"
-              />
-                <div class=" d-flex flex-row justify-content-between mr-2 ml-2">
-                    <h4 class="text-warning mt-2" >120 RS</h4>
-                    <button class="btn btn-warning btn-sm align-self-center" type="button">Add to Cart</button>
-                </div>
-            </div>
-          </div>
-
-         
-
+    
+    <section class="py-5" >
+      <div class="products-container">
+        <div class="product-header">
+          <h5 class="product-title text-warning  ">PRODUCT</h5>
+          <h5 class="price text-warning">PRICE</h5>
+          <h5 class="quantity text-warning">QUANTITY</h5>
+          <h5 class="total text-warning">TOTAL</h5>
         </div>
       </div>
+      <div class="products"></div>
+     
+        <button  style="margin-right: 16%;" id ="checkoutBtn" class="btn btn-warning btn-md float-right" >CHECKOUT</button>
+
     </section>
+ 
 
     <div class="container-fluid info p-3" id="top-icons">
       <div class="row">
@@ -159,7 +81,7 @@
               ><i class="fab fa-yelp fa-2x"></i
             ></a>
           </div>
-          <h2 class="primary-color text-uppercase">&copy;copyright 2019</h2>
+          <h2 class="primary-color text-uppercase">&copy;copyright 2021</h2>
         </div>
       </div>
     </div>
